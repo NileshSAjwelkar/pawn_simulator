@@ -160,6 +160,6 @@ end
 
 # Usage example:
 simulator = PawnSimulator.new
-commands = ["PLACE 2 3 N White", "MOVE", "LEFT", "MOVE", "RIGHT", "MOVE", "REPORT"]
+commands = ["PLACE 2 3 N White", "Move", "left", "MOVE", "RIGHT", "mOVE", "REPORT"]
 simulator.process_commands(commands)
 
